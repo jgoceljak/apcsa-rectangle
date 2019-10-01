@@ -4,10 +4,10 @@ public class apcsarectangle {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Enter a length:");
+        System.out.print("\nEnter a length: ");
         double length = in.nextDouble();
 
-        System.out.print("Enter a width:");
+        System.out.print("Enter a width: ");
         double width = in.nextInt();
 
         double area = length * width;
